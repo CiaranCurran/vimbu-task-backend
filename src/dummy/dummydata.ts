@@ -66,7 +66,7 @@ export default {
     {
       id: "8",
       name: "Soldeu",
-      country: "Austria",
+      country: "Andorra",
       coordinates: { latitude: 42.576919, longitude: 1.669188 },
       pistesKm: 110,
       image:
@@ -84,7 +84,7 @@ export default {
     {
       id: "10",
       name: "Val d'Isere",
-      country: "Switzerland",
+      country: "Switzerlad",
       coordinates: { latitude: 45.446293, longitude: 6.976911 },
       pistesKm: 110,
       image:
@@ -125,7 +125,8 @@ export default {
       resort: "1",
       gender: "male",
       rate: 45,
-      image: "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O"
+      image:
+        "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O",
     },
     {
       firstName: "Yolanda",
@@ -143,7 +144,8 @@ export default {
       resort: "1",
       gender: "male",
       rate: 65,
-      image: "https://www.tutorialspoint.com/snowboarding/images/snowboard_player.jpg"
+      image:
+        "https://www.tutorialspoint.com/snowboarding/images/snowboard_player.jpg",
     },
     {
       firstName: "Caio",
@@ -151,7 +153,8 @@ export default {
       resort: "1",
       gender: "male",
       rate: 60,
-      image: "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O"
+      image:
+        "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O",
     },
     {
       firstName: "Ramon",
@@ -159,7 +162,8 @@ export default {
       resort: "2",
       gender: "male",
       rate: 68,
-      image: "https://www.tutorialspoint.com/snowboarding/images/snowboard_player.jpg"
+      image:
+        "https://www.tutorialspoint.com/snowboarding/images/snowboard_player.jpg",
     },
     {
       firstName: "Gundula",
@@ -167,8 +171,8 @@ export default {
       resort: "2",
       gender: "male",
       rate: 63,
-      image: "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O"
-
+      image:
+        "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O",
     },
     {
       firstName: "Tulio",
@@ -176,7 +180,8 @@ export default {
       resort: "2",
       gender: "male",
       rate: 51,
-      image: "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O"
+      image:
+        "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O",
     },
     {
       firstName: "Dan",
@@ -184,7 +189,8 @@ export default {
       resort: "2",
       gender: "male",
       rate: 56,
-      image: "https://www.tutorialspoint.com/snowboarding/images/snowboard_player.jpg"
+      image:
+        "https://www.tutorialspoint.com/snowboarding/images/snowboard_player.jpg",
     },
     {
       firstName: "Alienor",
@@ -193,7 +199,7 @@ export default {
       gender: "female",
       rate: 48,
       image:
-      "https://www.snocountry.com/images/easyblog_articles/3845/b2ap3_large_Boyne-Highlands-Lisa-densmore-Boyne-picture.jpg",
+        "https://www.snocountry.com/images/easyblog_articles/3845/b2ap3_large_Boyne-Highlands-Lisa-densmore-Boyne-picture.jpg",
     },
     {
       firstName: "Viola",
@@ -210,7 +216,8 @@ export default {
       resort: "3",
       gender: "male",
       rate: 56,
-      image: "https://www.tutorialspoint.com/snowboarding/images/snowboard_player.jpg"
+      image:
+        "https://www.tutorialspoint.com/snowboarding/images/snowboard_player.jpg",
     },
     {
       firstName: "Candelario",
@@ -218,7 +225,8 @@ export default {
       resort: "3",
       gender: "male",
       rate: 50,
-      image: "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O"
+      image:
+        "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O",
     },
     {
       firstName: "Rudi",
@@ -226,7 +234,8 @@ export default {
       resort: "3",
       gender: "male",
       rate: 70,
-      image: "https://www.tutorialspoint.com/snowboarding/images/snowboard_player.jpg"
+      image:
+        "https://www.tutorialspoint.com/snowboarding/images/snowboard_player.jpg",
     },
     {
       firstName: "Yanick",
@@ -234,7 +243,8 @@ export default {
       resort: "4",
       gender: "male",
       rate: 56,
-      image: "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O"
+      image:
+        "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O",
     },
     {
       firstName: "Amadeo",
@@ -251,7 +261,8 @@ export default {
       resort: "4",
       gender: "male",
       rate: 60,
-      image: "https://www.tutorialspoint.com/snowboarding/images/snowboard_player.jpg"
+      image:
+        "https://www.tutorialspoint.com/snowboarding/images/snowboard_player.jpg",
     },
     {
       firstName: "Ilary",
@@ -260,7 +271,7 @@ export default {
       gender: "female",
       rate: 51,
       image:
-      "https://www.snocountry.com/images/easyblog_articles/3845/b2ap3_large_Boyne-Highlands-Lisa-densmore-Boyne-picture.jpg",
+        "https://www.snocountry.com/images/easyblog_articles/3845/b2ap3_large_Boyne-Highlands-Lisa-densmore-Boyne-picture.jpg",
     },
     {
       firstName: "Clea",
@@ -268,7 +279,8 @@ export default {
       resort: "4",
       gender: "female",
       rate: 56,
-      image: "https://dsgmedia.blob.core.windows.net/pub/2017/11/Tips-to-Improve-Your-Snowboarding-Stance.jpg"
+      image:
+        "https://dsgmedia.blob.core.windows.net/pub/2017/11/Tips-to-Improve-Your-Snowboarding-Stance.jpg",
     },
     {
       firstName: "Federico",
@@ -276,7 +288,8 @@ export default {
       resort: "4",
       gender: "male",
       rate: 45,
-      image: "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O"
+      image:
+        "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O",
     },
     {
       firstName: "Yolanda",
@@ -293,7 +306,8 @@ export default {
       resort: "5",
       gender: "male",
       rate: 65,
-      image: "https://www.tutorialspoint.com/snowboarding/images/snowboard_player.jpg"
+      image:
+        "https://www.tutorialspoint.com/snowboarding/images/snowboard_player.jpg",
     },
     {
       firstName: "Caio",
@@ -301,7 +315,8 @@ export default {
       resort: "5",
       gender: "male",
       rate: 60,
-      image: "https://www.tutorialspoint.com/snowboarding/images/snowboard_player.jpg"
+      image:
+        "https://www.tutorialspoint.com/snowboarding/images/snowboard_player.jpg",
     },
     {
       firstName: "Ramon",
@@ -309,7 +324,8 @@ export default {
       resort: "5",
       gender: "male",
       rate: 68,
-      image: "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O"
+      image:
+        "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O",
     },
     {
       firstName: "Gundula",
@@ -317,7 +333,8 @@ export default {
       resort: "5",
       gender: "male",
       rate: 63,
-      image: "https://www.tutorialspoint.com/snowboarding/images/snowboard_player.jpg"
+      image:
+        "https://www.tutorialspoint.com/snowboarding/images/snowboard_player.jpg",
     },
     {
       firstName: "Tulio",
@@ -334,7 +351,8 @@ export default {
       resort: "6",
       gender: "male",
       rate: 56,
-      image: "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O"
+      image:
+        "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O",
     },
     {
       firstName: "Alienor",
@@ -343,7 +361,7 @@ export default {
       gender: "female",
       rate: 48,
       image:
-      "https://www.snocountry.com/images/easyblog_articles/3845/b2ap3_large_Boyne-Highlands-Lisa-densmore-Boyne-picture.jpg",
+        "https://www.snocountry.com/images/easyblog_articles/3845/b2ap3_large_Boyne-Highlands-Lisa-densmore-Boyne-picture.jpg",
     },
     {
       firstName: "Viola",
@@ -352,7 +370,7 @@ export default {
       gender: "female",
       rate: 64,
       image:
-      "https://www.snocountry.com/images/easyblog_articles/3845/b2ap3_large_Boyne-Highlands-Lisa-densmore-Boyne-picture.jpg",
+        "https://www.snocountry.com/images/easyblog_articles/3845/b2ap3_large_Boyne-Highlands-Lisa-densmore-Boyne-picture.jpg",
     },
     {
       firstName: "Rosario",
@@ -369,7 +387,8 @@ export default {
       resort: "6",
       gender: "male",
       rate: 50,
-      image: "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O"
+      image:
+        "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O",
     },
     {
       firstName: "Rudi",
@@ -377,7 +396,8 @@ export default {
       resort: "7",
       gender: "male",
       rate: 70,
-      image: "https://www.tutorialspoint.com/snowboarding/images/snowboard_player.jpg"
+      image:
+        "https://www.tutorialspoint.com/snowboarding/images/snowboard_player.jpg",
     },
     {
       firstName: "Yanick",
@@ -385,7 +405,8 @@ export default {
       resort: "7",
       gender: "male",
       rate: 56,
-      image: "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O"
+      image:
+        "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O",
     },
     {
       firstName: "Amadeo",
@@ -393,7 +414,8 @@ export default {
       resort: "7",
       gender: "male",
       rate: 42,
-      image: "https://www.tutorialspoint.com/snowboarding/images/snowboard_player.jpg"
+      image:
+        "https://www.tutorialspoint.com/snowboarding/images/snowboard_player.jpg",
     },
     {
       firstName: "Severo",
@@ -411,7 +433,7 @@ export default {
       gender: "female",
       rate: 51,
       image:
-      "https://www.snocountry.com/images/easyblog_articles/3845/b2ap3_large_Boyne-Highlands-Lisa-densmore-Boyne-picture.jpg",
+        "https://www.snocountry.com/images/easyblog_articles/3845/b2ap3_large_Boyne-Highlands-Lisa-densmore-Boyne-picture.jpg",
     },
     {
       firstName: "Clea",
@@ -419,7 +441,8 @@ export default {
       resort: "7",
       gender: "female",
       rate: 56,
-      image: "https://dsgmedia.blob.core.windows.net/pub/2017/11/Tips-to-Improve-Your-Snowboarding-Stance.jpg"
+      image:
+        "https://dsgmedia.blob.core.windows.net/pub/2017/11/Tips-to-Improve-Your-Snowboarding-Stance.jpg",
     },
     {
       firstName: "Federico",
@@ -436,7 +459,8 @@ export default {
       resort: "8",
       gender: "female",
       rate: 43,
-      image: "https://dsgmedia.blob.core.windows.net/pub/2017/11/Tips-to-Improve-Your-Snowboarding-Stance.jpg"
+      image:
+        "https://dsgmedia.blob.core.windows.net/pub/2017/11/Tips-to-Improve-Your-Snowboarding-Stance.jpg",
     },
     {
       firstName: "Abramo",
@@ -444,7 +468,8 @@ export default {
       resort: "8",
       gender: "male",
       rate: 65,
-      image: "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O"
+      image:
+        "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O",
     },
     {
       firstName: "Caio",
@@ -452,7 +477,8 @@ export default {
       resort: "8",
       gender: "male",
       rate: 60,
-      image: "https://www.tutorialspoint.com/snowboarding/images/snowboard_player.jpg"
+      image:
+        "https://www.tutorialspoint.com/snowboarding/images/snowboard_player.jpg",
     },
     {
       firstName: "Ramon",
@@ -460,7 +486,8 @@ export default {
       resort: "9",
       gender: "male",
       rate: 68,
-      image: "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O"
+      image:
+        "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O",
     },
     {
       firstName: "Gundula",
@@ -477,7 +504,8 @@ export default {
       resort: "9",
       gender: "male",
       rate: 51,
-      image: "https://www.tutorialspoint.com/snowboarding/images/snowboard_player.jpg"
+      image:
+        "https://www.tutorialspoint.com/snowboarding/images/snowboard_player.jpg",
     },
     {
       firstName: "Dan",
@@ -485,7 +513,8 @@ export default {
       resort: "9",
       gender: "male",
       rate: 56,
-      image: "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O"
+      image:
+        "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O",
     },
     {
       firstName: "Alienor",
@@ -494,7 +523,7 @@ export default {
       gender: "female",
       rate: 48,
       image:
-      "https://www.snocountry.com/images/easyblog_articles/3845/b2ap3_large_Boyne-Highlands-Lisa-densmore-Boyne-picture.jpg",
+        "https://www.snocountry.com/images/easyblog_articles/3845/b2ap3_large_Boyne-Highlands-Lisa-densmore-Boyne-picture.jpg",
     },
     {
       firstName: "Viola",
@@ -502,7 +531,8 @@ export default {
       resort: "10",
       gender: "female",
       rate: 64,
-      image: "https://dsgmedia.blob.core.windows.net/pub/2017/11/Tips-to-Improve-Your-Snowboarding-Stance.jpg"
+      image:
+        "https://dsgmedia.blob.core.windows.net/pub/2017/11/Tips-to-Improve-Your-Snowboarding-Stance.jpg",
     },
     {
       firstName: "Rosario",
@@ -519,7 +549,8 @@ export default {
       resort: "10",
       gender: "male",
       rate: 50,
-      image: "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O"
+      image:
+        "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O",
     },
     {
       firstName: "Rudi",
@@ -527,7 +558,8 @@ export default {
       resort: "10",
       gender: "male",
       rate: 70,
-      image: "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O"
+      image:
+        "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O",
     },
     {
       firstName: "Yanick",
@@ -535,7 +567,8 @@ export default {
       resort: "10",
       gender: "male",
       rate: 56,
-      image: "https://www.tutorialspoint.com/snowboarding/images/snowboard_player.jpg"
+      image:
+        "https://www.tutorialspoint.com/snowboarding/images/snowboard_player.jpg",
     },
     {
       firstName: "Amadeo",
@@ -543,7 +576,8 @@ export default {
       resort: "11",
       gender: "male",
       rate: 42,
-      image: "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O"
+      image:
+        "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O",
     },
     {
       firstName: "Severo",
@@ -561,7 +595,7 @@ export default {
       gender: "female",
       rate: 51,
       image:
-      "https://www.snocountry.com/images/easyblog_articles/3845/b2ap3_large_Boyne-Highlands-Lisa-densmore-Boyne-picture.jpg",
+        "https://www.snocountry.com/images/easyblog_articles/3845/b2ap3_large_Boyne-Highlands-Lisa-densmore-Boyne-picture.jpg",
     },
     {
       firstName: "Clea",
@@ -569,7 +603,8 @@ export default {
       resort: "11",
       gender: "female",
       rate: 56,
-      image: "https://dsgmedia.blob.core.windows.net/pub/2017/11/Tips-to-Improve-Your-Snowboarding-Stance.jpg"
+      image:
+        "https://dsgmedia.blob.core.windows.net/pub/2017/11/Tips-to-Improve-Your-Snowboarding-Stance.jpg",
     },
     {
       firstName: "Federico",
@@ -577,7 +612,8 @@ export default {
       resort: "11",
       gender: "male",
       rate: 45,
-      image: "https://www.tutorialspoint.com/snowboarding/images/snowboard_player.jpg"
+      image:
+        "https://www.tutorialspoint.com/snowboarding/images/snowboard_player.jpg",
     },
     {
       firstName: "Yolanda",
@@ -585,7 +621,8 @@ export default {
       resort: "11",
       gender: "female",
       rate: 43,
-      image: "https://dsgmedia.blob.core.windows.net/pub/2017/11/Tips-to-Improve-Your-Snowboarding-Stance.jpg"
+      image:
+        "https://dsgmedia.blob.core.windows.net/pub/2017/11/Tips-to-Improve-Your-Snowboarding-Stance.jpg",
     },
     {
       firstName: "Abramo",
@@ -602,7 +639,8 @@ export default {
       resort: "11",
       gender: "male",
       rate: 60,
-      image: "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O"
+      image:
+        "https://www.boafit.com/sites/boafit/files/styles/product_detail_523w/public/2019-10/Boa-Snowboard-20180305_stellar_rice_0053_rgb-600x400-PioneerHeader-TravisRice.jpg?itok=8XGPg71O",
     },
     {
       firstName: "Ramon",
@@ -610,8 +648,8 @@ export default {
       resort: "11",
       gender: "male",
       rate: 68,
-      image: "https://www.tutorialspoint.com/snowboarding/images/snowboard_player.jpg"
-  
+      image:
+        "https://www.tutorialspoint.com/snowboarding/images/snowboard_player.jpg",
     },
     {
       firstName: "Gundula",
@@ -630,5 +668,6 @@ export default {
       rate: 63,
       image:
         "https://skiinglab.com/wp-content/uploads/2020/05/advanced-skiier-parallel-skiing.jpg",
-    },,
+    },
+  ],
 };
