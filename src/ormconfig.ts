@@ -9,8 +9,12 @@ export default {
   database: process.env.DB_NAME,
   synchronize: true,
   logging: false,
-  entities: ["./src/entity/*.ts"],
+  entities: [
+    `./${process.env.BUILD ? "bin" : "src"}/entity/*.${
+      process.env.BUILD ? "js" : "ts"
+    }`,
+  ],
   cli: {
-    entitiesDir: "./src/entity",
+    entitiesDir: `./${process.env.BUILD ? "bib" : "src"}/entity`,
   },
 } as ConnectionOptions;

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "build": "tsc --build",
     "dev": "nodemon src/index.ts",
     "test": "jest --watchAll",
     "lint": "eslint . --ext .ts,.tsx,.js,.jsx,.json",
