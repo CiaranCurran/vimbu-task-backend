@@ -27,6 +27,8 @@ export class Instructor extends BaseEntity {
 
   @Column("int") rate: number;
 
+  @Column("text") image: string;
+
   @ManyToOne(() => Resort, (resort) => resort.instructors)
   resort: Resort;
 
