@@ -5,19 +5,25 @@ import {
   PrimaryColumn,
   BeforeInsert,
   BaseEntity,
+  OneToMany,
 } from "typeorm";
 import { v4 as uuid4 } from "uuid";
+import { Instructor } from "./instructor";
 
 @Entity()
 export class Resort extends BaseEntity {
-  @PrimaryColumn("uuid") id: string;
+  @PrimaryColumn("varchar") id: string;
 
   @Column("varchar", { length: 255 }) name: string;
 
   @Column("varchar", { length: 255 }) country: string;
 
-  @BeforeInsert()
-  addId() {
-    this.id = uuid4();
-  }
+  @Column("double precision") longitude: number;
+
+  @Column("double precision") latitude: number;
+
+  @Column("text") image: string;
+
+  @OneToMany(() => Instructor, (instructor) => instructor.resort)
+  instructors: Instructor[];
 }

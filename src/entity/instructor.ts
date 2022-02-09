@@ -5,8 +5,15 @@ import {
   PrimaryColumn,
   BeforeInsert,
   BaseEntity,
+  ManyToOne,
 } from "typeorm";
+import { Resort } from "./resort";
 import { v4 as uuid4 } from "uuid";
+
+enum Gender {
+  MALE = "male",
+  FEMALE = "female",
+}
 
 @Entity()
 export class Instructor extends BaseEntity {
@@ -15,6 +22,13 @@ export class Instructor extends BaseEntity {
   @Column("varchar", { length: 255 }) firstName: string;
 
   @Column("varchar", { length: 255 }) lastName: string;
+
+  @Column({ type: "enum", enum: Gender }) gender: Gender;
+
+  @Column("int") rate: number;
+
+  @ManyToOne(() => Resort, (resort) => resort.instructors)
+  resort: Resort;
 
   @BeforeInsert()
   addId() {
