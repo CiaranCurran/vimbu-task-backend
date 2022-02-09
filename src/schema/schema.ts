@@ -1,5 +1,6 @@
 import {
   GraphQLFloat,
+  GraphQLInt,
   GraphQLList,
   GraphQLObjectType,
   GraphQLSchema,
@@ -17,6 +18,27 @@ const ResortType = new GraphQLObjectType({
     latitude: { type: GraphQLFloat },
     longitude: { type: GraphQLFloat },
     image: { type: GraphQLString },
+    instructors: {
+      type: new GraphQLList(InstructorType),
+      async resolve(parent, args) {
+        const instructors = await Instructor.find({ resort: parent.id });
+        return instructors;
+      },
+    },
+  }),
+});
+
+const InstructorType = new GraphQLObjectType({
+  name: "instructor",
+  fields: () => ({
+    id: { type: GraphQLString },
+    firstName: { type: GraphQLString },
+    lastName: { type: GraphQLString },
+    image: { type: GraphQLString },
+    rate: { type: GraphQLInt },
+    resort: {
+      type: GraphQLString,
+    },
   }),
 });
 
@@ -37,6 +59,22 @@ const rootQuery = new GraphQLObjectType({
       resolve: async (parent, args) => {
         const resorts = await Resort.find({});
         return resorts;
+      },
+    },
+    instructors: {
+      type: new GraphQLList(InstructorType),
+      //args: { id: { type: GraphQLString } },
+      resolve: async (parent, args) => {
+        console.log("finding instructors");
+        const instructors = await Instructor.find({ resort: parent.id });
+        return instructors;
+      },
+    },
+    instructor: {
+      type: InstructorType,
+      args: { id: { type: GraphQLString } },
+      resolve: async (parent, args) => {
+        console.log("finding instructor");
       },
     },
   },
